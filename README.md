@@ -1,0 +1,2 @@
+# java-spring-camel-otel-jaeger-postgres-mysql_consumoapis
+Exemplo de aplicação criada com Java + Spring + Apache Camel e utilizando Distributed Tracing com Jaeger + OpenTelemetry (configurando porta do Collector) e consumindo APIs REST (uma destas depende de bases PostgreSQL + MySQL). Inclui o uso de Docker Compose para a subida de ambiente que faz uso do projeto Jaeger e do OpenTelemetry Collector.
