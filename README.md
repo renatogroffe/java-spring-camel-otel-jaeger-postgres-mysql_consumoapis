@@ -3,4 +3,6 @@ Exemplo de aplicação criada com Java + Spring + Apache Camel e utilizando Dist
 
 APIs REST utilizadas por este projeto:
 - [**Contagem de acessos (.NET 9 + ASP.NET Core)**](https://github.com/renatogroffe/aspnetcore9-otel-jaeger-postgres-mysql_apicontagem)
-- [**Saudacoes (Node.js)**](https://github.com/renatogroffe/nodejs-otel-jaeger_apisaudacoes)
+- [**Saudações (Node.js)**](https://github.com/renatogroffe/nodejs-otel-jaeger_apisaudacoes)
+
+Agents Java do OpenTelemetry: **https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases**
