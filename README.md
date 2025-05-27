@@ -17,4 +17,10 @@ Já o Agent Java do OpenTelemetry foi configurado em **Run > Run Configurations.
 
 ![Configurando uso do Agent Java do OpenTelemetry no Eclipse](img/eclipse-env-var-jaeger.png)
 
-Exemplo de resultado de uma interação entre as 3 aplicações aqui mencionadas:
+Traces gerados durante testes no dashboard do Jaeger:
+
+![Traces gerados no Jaeger](img/jaeger-01.png)
+
+Exemplo de trace demonstrando uma interação entre as 3 aplicações aqui mencionadas:
+
+![Trace em detalhes no Jaeger](img/jaeger-02.png)
