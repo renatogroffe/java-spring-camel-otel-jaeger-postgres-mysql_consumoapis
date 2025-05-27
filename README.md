@@ -6,3 +6,15 @@ APIs REST utilizadas por este projeto:
 - [**Saudações (Node.js)**](https://github.com/renatogroffe/nodejs-otel-jaeger_apisaudacoes)
 
 Agents Java do OpenTelemetry: **https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases**
+
+Variáveis de ambiente a serem configuradas para uso de tracing distribuído com Jaeger:
+
+Essas variáveis podem ser configuradas no Eclipse IDE através do menu **Run > Run Configurations... > Environment**:
+
+![Variáveis de ambiente no Eclipse](img/eclipse-env-var-jaeger.png)
+
+Já o Agent Java do OpenTelemetry foi configurado em **Run > Run Configurations... > Arguments > VM arguments**:
+
+![Configurando uso do Agent Java do OpenTelemetry no Eclipse](img/eclipse-env-var-jaeger.png)
+
+Exemplo de resultado de uma interação entre as 3 aplicações aqui mencionadas:
