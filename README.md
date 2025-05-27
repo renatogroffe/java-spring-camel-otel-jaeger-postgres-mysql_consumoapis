@@ -9,6 +9,15 @@ Agents Java do OpenTelemetry: **https://github.com/open-telemetry/opentelemetry-
 
 Variáveis de ambiente a serem configuradas para uso de tracing distribuído com Jaeger:
 
+| Variável                          | Valor                   |
+|-----------------------------------|-------------------------|
+| OTEL_EXPORTER_OTLP_PROTOCOL       | grpc                    |
+| OTEL_EXPORTER_OTLP_TRACES_ENDPOINT| http://localhost:4317   |
+| OTEL_LOGS_EXPORTER                | none                    |
+| OTEL_METRICS_EXPORTER             | none                    |
+| OTEL_SERVICE_NAME                 | consumerspringcamel     |
+| OTEL_TRACES_EXPORTER              | otlp                    |
+
 Essas variáveis podem ser configuradas no Eclipse IDE através do menu **Run > Run Configurations... > Environment**:
 
 ![Variáveis de ambiente no Eclipse](img/eclipse-env-var-jaeger.png)
@@ -16,6 +25,12 @@ Essas variáveis podem ser configuradas no Eclipse IDE através do menu **Run > 
 Já o Agent Java do OpenTelemetry foi configurado em **Run > Run Configurations... > Arguments > VM arguments**:
 
 ![Configurando uso do Agent Java do OpenTelemetry no Eclipse](img/eclipse-env-var-jaeger.png)
+
+Para os tests na minha máquina utilizei o valor:
+
+```
+-javaagent:D:/Java/opentelemetry/opentelemetry-javaagent.jar
+```
 
 Traces gerados durante testes no dashboard do Jaeger:
 
