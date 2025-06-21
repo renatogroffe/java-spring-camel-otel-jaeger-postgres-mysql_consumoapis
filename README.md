@@ -24,7 +24,7 @@ Essas variáveis podem ser configuradas no Eclipse IDE através do menu **Run > 
 
 Já o Agent Java do OpenTelemetry foi configurado em **Run > Run Configurations... > Arguments > VM arguments**:
 
-![Configurando uso do Agent Java do OpenTelemetry no Eclipse](img/eclipse-env-var-jaeger.png)
+![Configurando uso do Agent Java do OpenTelemetry no Eclipse](img/eclipse-arguments-otel.png)
 
 Para os tests na minha máquina utilizei o valor:
 
